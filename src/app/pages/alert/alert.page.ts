@@ -51,6 +51,7 @@ export class AlertPage implements OnInit {
       ]
     });
   }
+  
   async presentAlertPrompt() {
       const alert = await this.alertCtrl.create({
         header: 'Prompt!',
